@@ -1,1 +1,1 @@
-//this is for image, portfolio
+//this is for contact form
