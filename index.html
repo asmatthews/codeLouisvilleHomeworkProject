@@ -5,8 +5,14 @@
   <title>InBetweenTheLines</title>
     <link rel="normalize" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+     
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    
 </head>
     <header>
+        <img src="images/mainHeader%20copy.jpg">
         <nav>
         <!-- u se flexbox to make menu slide from stacked mobile to full horiz menu, includes about my work, contact -->
 
@@ -20,17 +26,41 @@
         </nav>
     </header>
         <body>
-        <div>
-        <!-- sketchbook image with links here -->
             
-            <img class="mySlides" src="imgTBD">
-            <img class="mySlides" src="imgTBD">
-            <img class="mySlides" src="imgTBD">
             
-        <h2>The Sketchbook</h2>
-        
-        <p>Spicy jalapeno bacon ipsum dolor amet ex burgdoggen incididunt do, cillum spare ribs aute lorem fatback adipisicing pork belly. Frankfurter ullamco ham et filet mignon turkey ham hock beef ribs. Swine salami burgdoggen pariatur. <br> Doner voluptate ipsum lorem duis. Aliqua dolore eiusmod sint tenderloin id. Ut lorem sed, nulla bacon doner elit. Ut esse tempor exercitation. Labore adipisicing laborum pork belly ground round ham.</p>
-        </div>
+            
+            
+            
+            <!-- setting up bootstrap layout for responsive-->
+            <div class="container">
+                <!--sktechbook begins-->
+                <div class="row">
+                    <div class="col">
+                         <h2 class="mb-3">My Sketchbook</h2>
+                    </div>
+                </div>
+                
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <p>Spicy jalapeno bacon ipsum dolor amet ex burgdoggen incididunt do, cillum spare ribs aute lorem fatback adipisicing pork belly. Frankfurter ullamco ham et filet mignon turkey ham hock beef ribs. Swine salami burgdoggen pariatur. <br> Doner voluptate ipsum lorem duis. Aliqua dolore eiusmod sint tenderloin id. Ut lorem sed, nulla bacon doner elit. Ut esse tempor exercitation. Labore adipisicing laborum pork belly ground round ham.</p>
+                        </div>
+                        
+
+                    </div>
+                        <div class="col-6 col-md-4">
+                            <img class="img-fluid" src="images/carosel1.jpg">
+                            <img class="img-fluid" src="images/packaging3.jpg" alt="bottle with label art">
+                            <img class="img-fluid" src="images/carosel2.jpg" alt="business card design">
+                        </div>   
+                    </div>
+                      
+                        
+                        
+                </div> <!--sketchbook ends-->
+            </div> <!--container ends-->
+            
+            
+            <!-- ending of  bootstrap layout for responsive-->
 
         <div>
         <!-- text block with social media links possibly -->
@@ -38,6 +68,8 @@
 
         <footer>
         <!-- copy right info, possibly link to contact -->
+            <p>All rights reserved Amy Matthews &copy;2017</p>
+            <a href="mailto:amysusanmatthews@gmail.com">email me</a>
         </footer>
     <script src="js/script.js"></script>
  </body>

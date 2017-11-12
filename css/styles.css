@@ -1,7 +1,22 @@
 /*general styling*/
 
+body {
+    font-family: 'Lora', serif;
+}
+
+header {
+    font-family: 'Lora', serif;
+}
+
+header img {
+    max-width: 100%;
+}
+
 ul {
    list-style-type: none;
-    
-    
 };
+
+
+a {
+    text-decoration: none;
+}
