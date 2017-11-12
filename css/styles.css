@@ -6,11 +6,15 @@ body {
 
 header {
     font-family: 'Lora', serif;
+    background-color: #ededef;
 }
 
 header img {
     max-width: 100%;
 }
+
+.container h2{
+    color: #99b829;}
 
 ul {
    list-style-type: none;
@@ -21,45 +25,101 @@ a {
     text-decoration: none;
 }
 
+.mb-3{
+    color: #99b829;
+    margin-top: 10px;
+}
+
+.important {
+    font-weight: bold;
+    color: #282828;
+}
+.important a{
+    text-decoration: none;
+    color: #99B829;
+}
+
+.important a:hover {
+    text-decoration: none;
+    color: #282828;
+}
 /**nav styling**/
 
 .main-nav{
-    margin-top:  10px;
+    margin: auto;
+    padding: 10px;
 }
+ 
 
 .main-nav a {
-    text-align: center;
+    color: #99B829;
+    text-decoration: none;
     display: block;
-    padding: 12px 15px;
-    font-size: .98em;
+    padding: 10px 60px;
+    font-size: 1.5em;
+    text-align: center;
+
 }
 .main-nav a:hover {
-    color: beige;
+    color: #FFFffF;
+    text-decoration: none;
 }
 
+.main-footer{
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    color: #99b829;
+    background-color: #EDEDEF;
+    text-align: center;
+    
+}
+
+.main-footer a{
+    width: 100%;
+    text-decoration: none;
+    color: #99b829;
+}
+
+.main-footer a:hover{
+    color: #FFFffF;
+    text-decoration: none;
+}
 
 /**media quieries**/
 
 @media (min-width: 769px){
     
-    .main-header {
+    .main-header, .main-footer {
         display: flex;
+
     }
     .main-nav{
         display: flex;
     }
-    .main-header{
+    .main-header, .main-footer{
         flex-direction: column;
         align-items: flex-center;
-        background-color: darkgray;
+    }
+    .main-footer{
+        width: 100%;
     }
     }
     
 @media (min-width: 1025px){
-    .main-header;
+    .main-header, .main-footer;
     flex-direction: row;
     justify-content: space-between;
     
+    .col, {
+        margin: 15px;
+    }
+    .row {
+        margin: 25px;
+    } 
+    .main-footer{
+        width: 100%;
+    }
 }
 
 

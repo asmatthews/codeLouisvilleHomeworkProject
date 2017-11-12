@@ -5,27 +5,55 @@
   <title>InBetweenTheLines</title>
     <link rel="normalize" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+     
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 </head>
-    <header>
-        <nav>
-        <!-- u se flexbox to make menu slide from stacked mobile to full horiz menu, includes about my work, contact -->
-
-        <img src="images/headerLogoFPO.jpeg" alt="green logo">
-            <h1>In Between The Lines</h1>    
-            <ul>
+    <header class="main-header">
+        <img src="images/mainHeader%20copy.jpg">
+            <ul class="main-nav">
+                <li><a href="index.html"><img src="images/graphic2.gif" alt="logo" width="80" height="80"></a></li>
                 <li><a href="portfolio.html">My Work</a></li> 
-                <li><a href="contact.html">Contact Me</a></li> 
-                <li><a href="about.html">About</a></li>     
+                <li><a href="contact.html">Contact Me</a></li>     
             </ul>
-        </nav>
     </header>
-    
-    <body>
-        <h1>My Process</h1>
-        <p>Blah blah here</p>
-    </body>
-    <footer>
-    </footer>
-    
-  
+        
+        <body>
+            <!-- bootstrap layout for responsive-->
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                         <h2 class="mb-3">My story</h2>
+                    </div>
+                </div>
+                    <div class="row">
+                        <div class="col-12" mx-5>
+                            <p>Spicy jalapeno bacon ipsum dolor amet ex burgdoggen incididunt do, cillum spare ribs aute lorem fatback adipisicing pork belly. Frankfurter ullamco ham et filet mignon turkey ham hock beef ribs. Swine salami burgdoggen pariatur. <br> Doner voluptate ipsum lorem duis. Aliqua dolore eiusmod sint tenderloin id. Ut lorem sed, nulla bacon doner elit. Ut esse tempor exercitation. Labore adipisicing laborum pork belly ground round ham.</p>
+                        </div>
+                    </div>
+                <div class="container">
+                    <div class="row align-items-start">
+                        <div class="col-12">
+                       <h2>My Experience &amp; Brands I've worked on</h2>
+                        <p>Swine salami burgdoggen pariatur. Doner voluptate ipsum lorem duis. Aliqua dolore eiusmod sint tenderloin id. Ut lorem sed, nulla bacon doner elit. Ut esse tempor exercitation. Labore adipisicing laborum pork belly ground round ham.</p>
+                        </div>
+                        
+                        <div class="col">
+                        <img class="img-fluid" src="images/logosSamples.gif" alt="business cards">
+                        </div>
+                        
+                        
+                    </div>
+                </div>      
+            <!-- ending of  bootstrap layout for responsive-->
+       
+        <!-- copy right info, possibly link to contact -->
+        <footer class="main-footer">
+            <p>All rights reserved &#124; Amy Matthews &copy;2017</p>
+            <a href="mailto:amysusanmatthews@gmail.com">Email me</a>
+        </footer>
+                
+    <script src="js/script.js"></script>
+ </body>
 </html>
