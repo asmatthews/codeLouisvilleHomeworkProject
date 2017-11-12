@@ -20,3 +20,47 @@ ul {
 a {
     text-decoration: none;
 }
+
+/**nav styling**/
+
+.main-nav{
+    margin-top:  10px;
+}
+
+.main-nav a {
+    text-align: center;
+    display: block;
+    padding: 12px 15px;
+    font-size: .98em;
+}
+.main-nav a:hover {
+    color: beige;
+}
+
+
+/**media quieries**/
+
+@media (min-width: 769px){
+    
+    .main-header {
+        display: flex;
+    }
+    .main-nav{
+        display: flex;
+    }
+    .main-header{
+        flex-direction: column;
+        align-items: flex-center;
+        background-color: darkgray;
+    }
+    }
+    
+@media (min-width: 1025px){
+    .main-header;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+
+
