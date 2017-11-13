@@ -14,6 +14,7 @@
         <img src="images/mainHeader%20copy.jpg">
             <ul class="main-nav">
                 <li><a href="index.html"><img src="images/graphic2.gif" alt="logo" width="80" height="80"></a></li>
+                <li><h1>Amy Matthews</h1></li>
                 <li><a href="portfolio.html">My Work</a></li> 
                 <li><a href="contact.html">Contact Me</a></li>     
             </ul>
@@ -42,18 +43,39 @@
                         <div class="col">
                         <img class="img-fluid" src="images/logosSamples.gif" alt="business cards">
                         </div>
-                        
-                        
                     </div>
                 </div>      
             <!-- ending of  bootstrap layout for responsive-->
        
+        <div class="resumesection">
+        <h1>Work History</h1>
+        <p>Experience matters. Please feel free to review my resume.</p>
+        </div>
+        <!--button for javascript requirement-->   
+         <div>
+          <button onclick="toggle_div_res('sectiontohide');">Click to Hide Resume</button>      
+        </div>
+         <div id="sectiontohide">Resume copy here. Burgdoggen pariatur. Doner voluptate ipsum lorem duis. Aliqua dolore eiusmod sint tenderloin id. Ut lorem sed, nulla bacon doner elit. Ut esse tempor exercitation. Labore adipisicing laborum pork belly ground round ham.</div>       
+       
+                
         <!-- copy right info, possibly link to contact -->
         <footer class="main-footer">
             <p>All rights reserved &#124; Amy Matthews &copy;2017</p>
             <a href="mailto:amysusanmatthews@gmail.com">Email me</a>
         </footer>
-                
-    <script src="js/script.js"></script>
+    
+<!--I know I should have this in a seperate linked document but it seemed silly for just one function--> 
+     <script type="text/javascript">
+                function toggle_div_res(id){
+                    var divelement = document.getElementById(id);
+                    if(divelement.style.display === 'none')
+                        divelement.style.display = 'block';
+                    else
+                        divelement.style.display = 'none';
+                }
+                </script> 
+             
+             
+             
  </body>
 </html>

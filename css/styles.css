@@ -13,6 +13,11 @@ header img {
     max-width: 100%;
 }
 
+header h1{
+    color: #99b829;
+    text-align: center;
+}
+
 .container h2{
     color: #99b829;}
 
@@ -43,6 +48,13 @@ a {
     text-decoration: none;
     color: #282828;
 }
+
+.resumesection h1{
+    color: #99b829;
+}
+
+
+
 /**nav styling**/
 
 .main-nav{
@@ -54,10 +66,10 @@ a {
 .main-nav a {
     color: #99B829;
     text-decoration: none;
-    display: block;
     padding: 10px 60px;
     font-size: 1.5em;
     text-align: center;
+    display: block;
 
 }
 .main-nav a:hover {
@@ -86,18 +98,22 @@ a {
     text-decoration: none;
 }
 
+//**button**//
+
+
+
 /**media quieries**/
 
 @media (min-width: 769px){
     
-    .main-header, .main-footer {
+    .main-header{
         display: flex;
 
     }
     .main-nav{
         display: flex;
     }
-    .main-header, .main-footer{
+    .main-header{
         flex-direction: column;
         align-items: flex-center;
     }
@@ -107,9 +123,12 @@ a {
     }
     
 @media (min-width: 1025px){
-    .main-header, .main-footer;
+    .main-header{
+    display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-between;  
+    }
+
     
     .col, {
         margin: 15px;
